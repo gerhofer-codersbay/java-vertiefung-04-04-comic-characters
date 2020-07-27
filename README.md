@@ -3,7 +3,7 @@
 ## Comic Analysis 
 
 Schreibe ein Programm, dass die folgenden Dateien einliest und 
-in eine Sinnvolle Datenstruktur `Comic` und und `ComicCharacter` speicherst. 
+in eine sinnvolle Datenstruktur  `Comic` und und `ComicCharacter` speicherst. Ein `Comic` besitzt zumindest ein Attribut Name. Ein `ComicCharacter` besitzt unter anderem eine `id`, `intelligence`, `alignment`, `speed` und alle anderen Eigentschaften die in dem CSV gegeben sind. Für `Alignment` bietet sich eine Enum Klasse an.
 Ein `ComicCharacter` sollte eine Liste von `Comic`s besitzen in denen dieser Charakter vorkommt, 
 diese Infos bekommst du aus dem CSV, welches eine Verbindungstabelle darstellt `charactersToComics.csv`.
 In dem sind allerdings nur IDs verknüpft, d.h. du solltest zuvor das CSV `comic_characters.csv` und `comics.csv` einlesen.
